@@ -16,6 +16,11 @@ from the web page or tracked automatically, and the whole thing runs off a
 protected LiPo with charger and boost on board. See
 [Design history](#design-history) for how it got here.
 
+|  |  |
+|:--:|:--:|
+| <img src="docs/img/spectrogram-abramus.jpg" height="240" alt="Echo Meter spectrogram of four downsweeping calls between roughly 40 and 55 kHz, on a 14-67 kHz axis"> | <img src="docs/img/rhinolophus-pusillus.jpg" height="240" alt="Least horseshoe bat roosting upside down on a cave ceiling"> |
+| **Japanese Pipistrelle**<br>*Alionoctula abramus* &mdash; recorded by this board, opened in the Echo Meter app | **Least Horseshoe Bat**<br>*Rhinolophus pusillus* &mdash; the ~108 kHz caller that set the sample rate |
+
 ---
 
 ## Contents
@@ -97,6 +102,7 @@ per-sample CPU, jitter-free, at an 8.192 MHz bit clock.
 | [`hardware/`](hardware/) | KiCad 10 project — schematic, 4-layer PCB, gerbers, BOM, horn generator. See [hardware/README.md](hardware/README.md) for the analog design. |
 | [`firmware/`](firmware/) | ESP-IDF application. See [firmware/README.md](firmware/README.md) for the detection logic and bring-up lessons. |
 | [`firmware/main/archive/`](firmware/main/archive/) | Earlier firmware variants kept for reference — v3's original, an SD-card recorder, a board bring-up test. |
+| [`docs/img/`](docs/img/) | Photographs and screenshots used in this README. |
 
 ## Getting started
 
